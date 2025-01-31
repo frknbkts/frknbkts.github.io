@@ -1,0 +1,235 @@
+/* Genel Stiller */
+:root {
+    --primary-color: #000000;
+    --secondary-color: #333333;
+    --accent-color: #666666;
+    --dark-color: #000000;
+    --light-color: #ffffff;
+    --gray-color: #f5f5f5;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--dark-color);
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: var(--dark-color) !important;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+    background-size: cover;
+    background-position: center;
+    color: var(--light-color);
+}
+
+.profile-image-container {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid var(--light-color);
+    box-shadow: 0 0 20px rgba(255,255,255,0.2);
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-section h1 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    margin-top: 2rem;
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    color: var(--light-color);
+    margin: 0 1rem;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    color: var(--gray-color);
+    transform: translateY(-3px);
+}
+
+/* Section Padding */
+.section-padding {
+    padding: 6rem 0;
+}
+
+/* Section Titles */
+.section-title {
+    text-align: center;
+    margin-bottom: 4rem;
+    position: relative;
+    font-weight: 700;
+    color: var(--dark-color);
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: var(--dark-color);
+    margin: 1rem auto;
+}
+
+/* Timeline */
+.timeline {
+    position: relative;
+    padding: 2rem 0;
+}
+
+.timeline-item {
+    padding: 2rem;
+    background: var(--light-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.timeline-item h3 {
+    color: var(--dark-color);
+    margin-bottom: 0.5rem;
+}
+
+/* Projects */
+.project-card {
+    background: var(--light-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 25px rgba(0,0,0,0.2);
+}
+
+.project-card .card-body {
+    padding: 1.5rem;
+}
+
+/* Skills */
+.skill-category {
+    margin-bottom: 2rem;
+}
+
+.skill-category h3 {
+    margin-bottom: 1.5rem;
+    color: var(--dark-color);
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.skill-tag {
+    background: var(--dark-color);
+    color: var(--light-color);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.skill-tag:hover {
+    background: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+/* Contact Section */
+.contact-info {
+    text-align: center;
+}
+
+.contact-item {
+    margin-bottom: 1.5rem;
+}
+
+.contact-item i {
+    font-size: 1.5rem;
+    color: var(--dark-color);
+    margin-bottom: 0.5rem;
+}
+
+.contact-item a {
+    color: var(--dark-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: var(--secondary-color);
+}
+
+/* Responsive Tasarım */
+@media (max-width: 768px) {
+    .section-padding {
+        padding: 4rem 0;
+    }
+    
+    .hero-section {
+        height: 100vh;
+    }
+
+    .profile-image-container {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+/* Animasyonlar */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-out;
+}
+
+/* Arka plan renkleri */
+.bg-light {
+    background-color: var(--gray-color) !important;
+}
+
+/* Buton stilleri */
+.btn-primary {
+    background-color: var(--dark-color);
+    border-color: var(--dark-color);
+    color: var(--light-color);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    transform: translateY(-2px);
+} 

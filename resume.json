@@ -1,0 +1,138 @@
+{
+  "personalInfo": {
+    "name": "Furkan Bektaş",
+    "title": "Yazılım Mühendisi",
+    "email": "furkanbektasbiz@gmail.com",
+    "phone": "+905539251110",
+    "location": "İstanbul, Türkiye",
+    "linkedin": "https://www.linkedin.com/in/furkanbektass",
+    "github": "https://github.com/frknbkts"
+  },
+  "profile": {
+    "description": "Kariyerinin başında olan bir yazılım mühendisi olarak, bilgi ve deneyimlerimi uygulamaya hazır durumdayım. Ekip çalışmasına yatkın, güçlü iletişim becerilerine sahip, problem çözmeye odaklı ve sektör trendlerini takip ederek kendimi geliştiriyorum."
+  },
+  "experience": [
+    {
+      "title": "Yazılım Mühendisi",
+      "company": "MFATECH",
+      "location": "Ankara, Türkiye",
+      "period": "11/2024 - present",
+      "description": "\n• .NET Core kullanılarak mikroservis mimarisine uygun bir backend yapısı geliştirildi.\n\n• Python ve Flask kullanılarak MVC mimarisinde backend uygulamaları geliştirildi.",
+      "skills": [".NET Core", "Python", "Flask", "Backend Development", "API Development"]
+    },
+    {
+      "title": "Yazılım Mühendisi Stajyeri",
+      "company": "RiskActive",
+      "location": "İstanbul, Türkiye",
+      "period": "06/2023 - 08/2023",
+      "description": "\n• Java ve Spring Boot kullanılarak Full-stack uygulamalar geliştirildi.\n\n• React ile dinamik veri işleme ve kullanıcı etkileşimli arayüzler geliştirme konusundaki beceriler güçlendirildi.\n\n• GitHub Actions kullanılarak CI/CD otomasyon süreçleri yönetildi.",
+      "skills": ["Java", "Spring Boot", "Web Development"]
+    },
+    {
+      "title": "Yazılım Mühendisi Stajyeri",
+      "company": "DMR Bilgi Teknolojileri",
+      "location": "İstanbul, Türkiye",
+      "period": "11/2022 - 03/2023",
+      "description": "\n• C# ve ASP.NET kullanarak web programlama alanında pratik deneyim kazanıldı.\n\n• MSSQL kullanılarak veritabanı yönetimi, veri modelleme ve sorgu süreçlerinde çalışmalar yapıldı.",
+      "skills": [".NET", "MVC", "Desktop Development"]
+    }
+  ],
+  "education": {
+    "degree": "Bilgisayar Mühendisliği",
+    "school": "Kocaeli Üniversitesi",
+    "period": "09/2019 - 07/2024",
+    "location": "Kocaeli, Türkiye"
+    
+  },
+  "skills": {
+    "Programlama Dilleri": [
+      "C#",
+      "Python",
+      "Java", 
+      "JavaScript"
+    ],
+    "Kütüphaneler ve Frameworks": [
+      ".NET Core",
+      "Flask",
+      "React",
+      "React Native",
+      "Node.js",
+      "jQuery",
+      "Spring Boot",
+      "ASP.NET MVC"
+    ],
+    "Araçlar ve Teknolojiler": [
+      "MSSQL",
+      "PostgreSQL",
+      "Docker",
+      "REST API",
+      "Git",
+      "Node.js",
+      "DBeaver",
+      "MongoDB",
+      "Google Firebase",
+      "AWS S3"
+      
+    ],
+    "languages": [
+      {
+        "name": "Türkçe",
+        "level": "Ana dil"
+      },
+      {
+        "name": "İngilizce",
+        "level": "B2"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "Hamilelik Takip Uygulaması",
+      "description": "Kullanıcıların hemşirelerle etkileşim kurmasını ve uygulamadaki takvim üzerinden yapılacak işleri takip etmesini sağlayan bir mobil uygulama geliştirildi.",
+      "technologies": ["React Native", "Mobile Development", "Firebase Realtime Database"],
+      "github": "https://github.com/frknbkts/doula-mobile-app"
+    },
+    {
+      "name": "Web Scraping Uygulaması",
+      "description": "Google Scholar'dan anahtar kelimeye göre makaleleri çekmek için scraping işlemi yapan, makaleler arasında filtreleme, sıralama ve anahtar kelime arama gibi özellikler sunan bir web uygulaması geliştirildi.",
+      "technologies": ["Python", "JavaScript", "MongoDB", "Flask", "Elasticsearch", "BeautifulSoup"],
+      "github": "https://github.com/frknbkts/web-scrapping-app"
+    },
+    {
+      "name": "Hastane Yönetim ve Randevu Sistemi",
+      "description": "Randevu sistemi, doktor seçimi, mesajlaşma sistemi, raporlama sistemi ve daha birçok özelliği barındıran bir web uygulaması geliştirildi.",
+      "technologies": ["C#", "ASP.NET MVC", "MSSQL", "JavaScript"],
+      "github": "https://github.com/frknbkts/hospital-management-system"
+    },
+    {
+      "name": "Üniversite Yönetim ve Bilgi Sistemi",
+      "description": ".NET ve PostgreSQL kullanılarak geliştirilmiş, ders seçimi, mesajlaşma, OCR (Optik Karakter Tanıma) özelliği ile transkript bilgisi ve çeşitli diğer özellikler sunan bir sistem.",
+      "technologies": ["C#", ".NET", "PostgreSQL", "OCR"],
+      "github": "https://github.com/frknbkts/university-information-system"
+    },
+    {
+      "name": "Online Fitness Uygulaması",
+      "description": "Spring Boot kullanılarak geliştirilen bir backend ve React tabanlı bir frontend ile oluşturulmuş kapsamlı bir online fitness uygulamasıdır. Uygulama, eğitmenler ve kullanıcılar arasında mesajlaşma, randevu planlama, egzersiz ve beslenme programları oluşturma gibi birçok işlevi desteklemektedir. Kullanıcılar, kişisel hedeflerini takip edebilirken, eğitmenler de bireysel veya grup seanslarını kolayca organize edebilir.",
+      "technologies": ["Java", "Spring Boot", "React", "RESTful API"],
+      "github": "https://github.com/frknbkts/online-fitness-app"
+    },
+    {
+      "name": "E-Ticaret Uygulaması",
+      "description": "\n• Kullanıcıların ürünleri görüntüleyebileceği, sepetlerine ekleyebileceği ve sipariş verebileceği bir e-ticaret uygulaması geliştirildi.\n\n• Node.js ve Express kullanılarak RESTful API'ler oluşturuldu.\n\n• Prisma ORM ve PostgreSQL veritabanı ile veri modelleri tanımlandı ve yönetildi.\n\n• Uygulama, Docker kullanılarak konteyner haline getirildi ve farklı ortamlar arasında tutarlı bir şekilde dağıtım sağlandı.",
+      "technologies": ["React", "Node.js", "Express", "Prisma", "PostgreSQL", "Docker"],
+      "github": "https://github.com/frknbkts/e-avm"
+    },
+    {
+      "name": "Restoran Simülasyonu",
+      "description": "C# ile geliştirilen ve multi-threading kullanan bir masaüstü uygulamasıdır. Uygulama, bir restoranın işleyişini simüle etmekte ve restoranın maksimum kazancı sağlayabileceği optimal algoritmalar geliştirmektedir. Masa düzenlemeleri, sipariş işleme ve kaynak yönetimi gibi işlevleri simüle ederek restoranın verimliliğini artırmaya yönelik stratejik bir çözüm sunmaktadır.",
+      "technologies": ["C#", "Multi-threading", "Algorithm Optimization"],
+      "github": "https://github.com/frknbkts/restaurant-simulation"
+    },
+    {
+      "name": "Arduino Retro Oyun",
+      "description": "Java Wokwi ortamında geliştirilen bir retro oyun uygulamasıdır. Projede, Adafruit ve TM1637Display gibi sanal devre elemanları kullanılarak oyun mekanikleri tasarlanmıştır. Arduino IDE kullanılarak oluşturulan bu proje, retro tarz oyun deneyimini modern yazılım araçlarıyla birleştirmeyi hedeflemektedir.",
+      "technologies": ["Java", "Arduino IDE", "Wokwi", "Game Development"],
+      "github": "https://github.com/frknbkts/ardunio-retro-game"
+    }
+  ]
+} 
