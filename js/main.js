@@ -44,17 +44,32 @@ function populateProjects(projects) {
     projects.forEach(project => {
         const col = document.createElement('div');
         col.className = 'col-md-6 col-lg-4 fade-in';
+
+        // Açıklamayı madde işaretlerine göre böl ve HTML formatına dönüştür
+        const formattedDescription = project.description
+            .split('•')
+            .filter(item => item.trim() !== '')
+            .map(item => `• ${item.trim()}`)
+            .join('<br>');
+
         col.innerHTML = `
             <div class="project-card">
                 <div class="card-body">
                     <h3>${project.name}</h3>
-                    <p>${project.description}</p>
-                    <div class="skill-tags">
+                    <div class="project-technologies mb-3">
+                        <strong>Kullanılan Teknolojiler:</strong><br>
                         ${project.technologies.map(tech => `<span class="skill-tag">${tech}</span>`).join('')}
                     </div>
-                    ${project.github ? `<a href="${project.github}" target="_blank" class="btn btn-primary mt-3">
-                        <i class="bi bi-github"></i> GitHub
-                    </a>` : ''}
+                    <div class="project-description">
+                        ${formattedDescription}
+                    </div>
+                    ${project.github ? `
+                        <div class="text-center mt-3">
+                            <a href="${project.github}" target="_blank" class="btn btn-primary">
+                                <i class="bi bi-github"></i> GitHub'da İncele
+                            </a>
+                        </div>
+                    ` : ''}
                 </div>
             </div>
         `;

@@ -17,7 +17,7 @@
       "company": "MFATECH",
       "location": "Ankara, Türkiye",
       "period": "11/2024 - present",
-      "description": "\n• .NET Core kullanılarak mikroservis mimarisine uygun bir backend yapısı geliştirildi.\n\n• Python ve Flask kullanılarak MVC mimarisinde backend uygulamaları geliştirildi.\n Devops alanında Gitlab ile CI/CD Pipeline süreçleri yönetildi.\n JWT, Sms-OTP, Mail-OTP, Google Auth, Facebook Auth, Apple Auth gibi güvenlik özellikleri kullanıldı.",
+      "description": "• .NET Core kullanılarak mikroservis mimarisine uygun bir backend yapısı geliştirildi.\n• Python ve Flask kullanılarak MVC mimarisinde backend uygulamaları geliştirildi.\n• Devops alanında Gitlab ile CI/CD Pipeline süreçleri yönetildi.\n• JWT, Sms-OTP, Mail-OTP, Google Auth, Facebook Auth, Apple Auth gibi güvenlik özellikleri kullanıldı.",
       "skills": [".NET Core", "Python", "Flask", "Backend Development", "API Development", "JWT"]
     },
     {
@@ -87,51 +87,63 @@
   },
   "projects": [
     {
-      "name": "Hamilelik Takip Uygulaması",
-      "description": "Kullanıcıların hemşirelerle etkileşim kurmasını ve uygulamadaki takvim üzerinden yapılacak işleri takip etmesini sağlayan bir mobil uygulama geliştirildi.",
-      "technologies": ["React Native", "Mobile Development", "Firebase Realtime Database"],
-      "github": "https://github.com/frknbkts/doula-mobile-app"
-    },
-    {
-      "name": "Web Scraping Uygulaması",
-      "description": "Google Scholar'dan anahtar kelimeye göre makaleleri çekmek için scraping işlemi yapan, makaleler arasında filtreleme, sıralama ve anahtar kelime arama gibi özellikler sunan bir web uygulaması geliştirildi.",
-      "technologies": ["Python", "JavaScript", "MongoDB", "Flask", "Elasticsearch", "BeautifulSoup"],
-      "github": "https://github.com/frknbkts/web-scrapping-app"
-    },
-    {
-      "name": "Hastane Yönetim ve Randevu Sistemi",
-      "description": "Randevu sistemi, doktor seçimi, mesajlaşma sistemi, raporlama sistemi ve daha birçok özelliği barındıran bir web uygulaması geliştirildi.",
-      "technologies": ["C#", "ASP.NET MVC", "MSSQL", "JavaScript"],
-      "github": "https://github.com/frknbkts/hospital-management-system"
-    },
-    {
-      "name": "Üniversite Yönetim ve Bilgi Sistemi",
-      "description": ".NET ve PostgreSQL kullanılarak geliştirilmiş, ders seçimi, mesajlaşma, OCR (Optik Karakter Tanıma) özelliği ile transkript bilgisi ve çeşitli diğer özellikler sunan bir sistem.",
-      "technologies": ["C#", ".NET", "PostgreSQL", "OCR"],
-      "github": "https://github.com/frknbkts/university-information-system"
-    },
-    {
-      "name": "Online Fitness Uygulaması",
-      "description": "Spring Boot kullanılarak geliştirilen bir backend ve React tabanlı bir frontend ile oluşturulmuş kapsamlı bir online fitness uygulamasıdır. Uygulama, eğitmenler ve kullanıcılar arasında mesajlaşma, randevu planlama, egzersiz ve beslenme programları oluşturma gibi birçok işlevi desteklemektedir. Kullanıcılar, kişisel hedeflerini takip edebilirken, eğitmenler de bireysel veya grup seanslarını kolayca organize edebilir.",
-      "technologies": ["Java", "Spring Boot", "React", "RESTful API"],
-      "github": "https://github.com/frknbkts/online-fitness-app"
-    },
-    {
       "name": "E-Ticaret Uygulaması",
-      "description": "\n• Kullanıcıların ürünleri görüntüleyebileceği, sepetlerine ekleyebileceği ve sipariş verebileceği bir e-ticaret uygulaması geliştirildi.\n\n• Node.js ve Express kullanılarak RESTful API'ler oluşturuldu.\n\n• Prisma ORM ve PostgreSQL veritabanı ile veri modelleri tanımlandı ve yönetildi.\n\n• Uygulama, Docker kullanılarak konteyner haline getirildi ve farklı ortamlar arasında tutarlı bir şekilde dağıtım sağlandı.",
       "technologies": ["React", "Node.js", "Express", "Prisma", "PostgreSQL", "Docker"],
+      "description": "• Kullanıcıların ürünleri görüntüleyebileceği, sepetlerine ekleyebileceği ve sipariş verebileceği bir e-ticaret uygulaması geliştirildi.\n• Node.js ve Express kullanılarak RESTful API'ler oluşturuldu.\n• Prisma ORM ve PostgreSQL veritabanı ile veri modelleri tanımlandı ve yönetildi.\n• Uygulama, Docker kullanılarak konteyner haline getirildi ve farklı ortamlar arasında tutarlı bir şekilde dağıtım sağlandı.",
       "github": "https://github.com/frknbkts/e-avm"
     },
     {
-      "name": "Restoran Simülasyonu",
-      "description": "C# ile geliştirilen ve multi-threading kullanan bir masaüstü uygulamasıdır. Uygulama, bir restoranın işleyişini simüle etmekte ve restoranın maksimum kazancı sağlayabileceği optimal algoritmalar geliştirmektedir. Masa düzenlemeleri, sipariş işleme ve kaynak yönetimi gibi işlevleri simüle ederek restoranın verimliliğini artırmaya yönelik stratejik bir çözüm sunmaktadır.",
-      "technologies": ["C#", "Multi-threading", "Algorithm Optimization"],
+      "name": "DoulaApp",
+      "technologies": ["React Native", "Expo", "Firebase", "Node.js", "RESTful API"],
+      "description": "• React Native ve Expo framework'ü kullanılarak cross-platform mobil uygulama geliştirildi.\n• Firebase Authentication ile kullanıcı yönetimi sağlandı.\n• Firebase Realtime Database ile gerçek zamanlı veri yönetimi implementa edildi.\n• Node.js backend ile RESTful API'ler oluşturuldu.",
+      "github": "https://github.com/frknbkts/doula-mobile-app"
+    },
+    {
+      "name": "Hastane Yönetim ve Randevu Sistemi",
+      "technologies": ["ASP.NET MVC 5", "Entity Framework", "Bootstrap", "jQuery", "SQL Server", "C#"],
+      "description": "• ASP.NET MVC 5 kullanılarak backend altyapısı oluşturuldu.\n• Entity Framework 6.4.4 ile veritabanı işlemleri yönetildi.\n• Bootstrap ve jQuery ile modern kullanıcı arayüzü geliştirildi.\n• SQL Server veritabanı entegrasyonu yapıldı.",
+      "github": "https://github.com/frknbkts/hospital-management-system"
+    },
+    {
+      "name": "Web Scraping ve Akademik Makale Arama Uygulaması",
+      "technologies": ["Python", "Flask", "MongoDB", "HTML", "JavaScript", "Elasticsearch"],
+      "description": "• Python ve Flask kullanılarak RESTful API'ler oluşturuldu.\n• MongoDB veritabanı ile akademik makale verileri depolandı ve yönetildi.\n• Frontend tarafında sade HTML ve JavaScript kullanılarak kullanıcı arayüzü geliştirildi.\n• Elasticsearch ile makale araması ve filtreleme özellikleri implementa edildi.",
+      "github": "https://github.com/frknbkts/web-scrapping-app"
+    },
+    {
+      "name": "Üniversite Yönetim Sistemi",
+      "technologies": [".NET 6.0", "PostgreSQL", "IronOCR", "System.Drawing.Common", "SixLabors.ImageSharp"],
+      "description": "• .NET 6.0 kullanılarak modern bir Windows Forms uygulaması geliştirildi.\n• PostgreSQL veritabanı yönetim sistemi entegre edildi.\n• IronOCR ile optik karakter tanıma işlemleri implementa edildi.\n• System.Drawing.Common ve SixLabors.ImageSharp ile görüntü işleme özellikleri eklendi.",
+      "github": "https://github.com/frknbkts/university-information-system"
+    },
+    {
+      "name": "Fitness Uygulaması",
+      "technologies": ["React.js", "Spring Boot", "Spring Security", "MySQL", "JPA", "RESTful API"],
+      "description": "• React.js ile modern ve responsive kullanıcı arayüzü geliştirildi.\n• Spring Boot backend framework'ü ile RESTful API'ler oluşturuldu.\n• Spring Security ile güvenli kimlik doğrulama ve yetkilendirme sistemi implementa edildi.\n• MySQL veritabanı ve JPA ile veri yönetimi sağlandı.",
+      "github": "https://github.com/frknbkts/online-fitness-app"
+    },
+    {
+      "name": "URL Kısaltma Servisi",
+      "technologies": ["NestJS", "Redis", "TypeScript", "Node.js"],
+      "description": "• NestJS framework'ü kullanılarak modern bir web servisi geliştirildi.\n• Redis önbelleği ile performans optimizasyonu sağlandı.\n• TypeScript ile tip güvenliği ve kod kalitesi artırıldı.\n• URL validasyonu ve TTL (Time To Live) desteği implementa edildi.",
+      "github": "https://github.com/frknbkts/url-shortener"
+    },
+    {
+      "name": "Restaurant Simülasyon Uygulaması",
+      "technologies": ["C#", "WPF", ".NET Framework", "XAML", "Multi-threading"],
+      "description": "• Windows Presentation Foundation (WPF) kullanılarak modern ve etkileşimli bir kullanıcı arayüzü tasarlandı.\n• C# programlama dili ve .NET Framework altyapısı ile geliştirildi.\n• Çoklu iş parçacığı (multi-threading) kullanılarak paralel işlem yönetimi sağlandı.\n• XAML kullanılarak kullanıcı arayüzü bileşenleri tanımlandı ve özelleştirildi.",
       "github": "https://github.com/frknbkts/restaurant-simulation"
     },
     {
-      "name": "Arduino Retro Oyun",
-      "description": "Java Wokwi ortamında geliştirilen bir retro oyun uygulamasıdır. Projede, Adafruit ve TM1637Display gibi sanal devre elemanları kullanılarak oyun mekanikleri tasarlanmıştır. Arduino IDE kullanılarak oluşturulan bu proje, retro tarz oyun deneyimini modern yazılım araçlarıyla birleştirmeyi hedeflemektedir.",
-      "technologies": ["Java", "Arduino IDE", "Wokwi", "Game Development"],
+      "name": "Hazine Avcısı (Treasure Hunter) Uygulaması",
+      "technologies": ["Java", "Java Swing", "Java AWT", "OOP", "Data Structures"],
+      "description": "• Java Swing ve AWT kütüphaneleri kullanılarak grafiksel kullanıcı arayüzü geliştirildi.\n• Derinlik Öncelikli Arama (DFS) algoritması ile hazine bulma mantığı implementa edildi.\n• Nesne Yönelimli Programlama prensipleri kullanılarak kod organizasyonu sağlandı.\n• Event handling mekanizmaları ile kullanıcı girdileri yönetildi.",
+      "github": "https://github.com/frknbkts/treasure-hunter"
+    },
+    {
+      "name": "Arduino Breakout Oyunu",
+      "technologies": ["Arduino", "C++", "OLED Display", "TM1637 Display", "Electronics"],
+      "description": "• Arduino platformu üzerinde C++ kullanılarak klasik Breakout oyunu geliştirildi.\n• OLED ekran üzerinde görsel oyun arayüzü tasarlandı.\n• TM1637 display ile puan gösterimi ve LED'lerle can sistemi implementa edildi.\n• Potansiyometre ile oyuncu kontrolü ve güç-yükseltme sistemi eklendi.",
       "github": "https://github.com/frknbkts/ardunio-retro-game"
     }
   ]
