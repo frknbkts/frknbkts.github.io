@@ -17,8 +17,8 @@
       "company": "MFATECH",
       "location": "Ankara, Türkiye",
       "period": "11/2024 - present",
-      "description": "\n• .NET Core kullanılarak mikroservis mimarisine uygun bir backend yapısı geliştirildi.\n\n• Python ve Flask kullanılarak MVC mimarisinde backend uygulamaları geliştirildi.",
-      "skills": [".NET Core", "Python", "Flask", "Backend Development", "API Development"]
+      "description": "\n• .NET Core kullanılarak mikroservis mimarisine uygun bir backend yapısı geliştirildi.\n\n• Python ve Flask kullanılarak MVC mimarisinde backend uygulamaları geliştirildi.\n Devops alanında Gitlab ile CI/CD Pipeline süreçleri yönetildi.\n JWT, Sms-OTP, Mail-OTP, Google Auth, Facebook Auth, Apple Auth gibi güvenlik özellikleri kullanıldı.",
+      "skills": [".NET Core", "Python", "Flask", "Backend Development", "API Development", "JWT"]
     },
     {
       "title": "Yazılım Mühendisi Stajyeri",
@@ -26,7 +26,7 @@
       "location": "İstanbul, Türkiye",
       "period": "06/2023 - 08/2023",
       "description": "\n• Java ve Spring Boot kullanılarak Full-stack uygulamalar geliştirildi.\n\n• React ile dinamik veri işleme ve kullanıcı etkileşimli arayüzler geliştirme konusundaki beceriler güçlendirildi.\n\n• GitHub Actions kullanılarak CI/CD otomasyon süreçleri yönetildi.",
-      "skills": ["Java", "Spring Boot", "Web Development"]
+      "skills": ["Java", "Spring Boot", "Web Development", "MySQL"]
     },
     {
       "title": "Yazılım Mühendisi Stajyeri",

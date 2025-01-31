@@ -109,6 +109,12 @@ body {
     margin-bottom: 0.5rem;
 }
 
+.experience-description {
+    line-height: 2;
+    margin: 1.5rem 0;
+    white-space: pre-line;
+}
+
 /* Projects */
 .project-card {
     background: var(--light-color);

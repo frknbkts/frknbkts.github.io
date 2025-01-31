@@ -17,11 +17,19 @@ function populateExperience(experiences) {
     experiences.forEach(exp => {
         const timelineItem = document.createElement('div');
         timelineItem.className = 'timeline-item fade-in';
+        
+        // Açıklamayı madde işaretlerine göre böl ve HTML formatına dönüştür
+        const formattedDescription = exp.description
+            .split('•')
+            .filter(item => item.trim() !== '') // Boş öğeleri filtrele
+            .map(item => `• ${item.trim()}`)
+            .join('<br>');
+
         timelineItem.innerHTML = `
             <h3>${exp.title}</h3>
             <h4>${exp.company}</h4>
             <p class="text-muted">${exp.period} | ${exp.location}</p>
-            <p>${exp.description}</p>
+            <p class="experience-description">${formattedDescription}</p>
             <div class="skill-tags">
                 ${exp.skills.map(skill => `<span class="skill-tag">${skill}</span>`).join('')}
             </div>
