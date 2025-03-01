@@ -87,6 +87,24 @@
   },
   "projects": [
     {
+      "name": "OrderService",
+      "technologies": ["Kafka", ".NET 8.0", "PostgreSQL", "ASP.NET Core MVC", "Bootstrap 5", "Docker", "CQRS", "MediatR"],
+      "description": "• Kullanıcıların ürünleri görüntüleyebileceği, sepetlerine ekleyebileceği ve sipariş verebileceği modern bir e-ticaret sipariş yönetim sistemi geliştirildi.\n• .NET 8.0 ve ASP.NET Core kullanılarak RESTful API'ler oluşturuldu.\n• Entity Framework Core ve PostgreSQL veritabanı ile veri modelleri tanımlandı ve yönetildi.\n• Apache Kafka ile mikroservisler arası iletişim sağlandı.",
+      "github": "https://github.com/frknbkts/OrderService"
+    },
+    {
+      "name": "Forum Projesi",
+      "technologies": ["Java", "Spring Boot", "JWT", "Hibernate", "Lombok", "Maven", "HTML", "CSS", "JavaScript"],
+      "description": "•Spring Boot kullanılarak RESTful API'ler oluşturuldu ve JWT kimlik doğrulama sistemi entegre edildi.\n•Spring Data JPA ve H2 veritabanı ile veri modelleri tanımlandı ve yönetildi.\n•HTML, CSS ve JavaScript kullanılarak arayüz tasarlandı, Fetch API ile backend entegrasyonu sağlandı.",
+      "github": "https://github.com/frknbkts/ForumJava"
+    },
+    {
+      "name": "Gerçek Zamanlı Sohbet Projesi",
+      "technologies": [".Net", "ASP.NET Core", "SignalR", "RabbitMQ", "JavaScript", "Bootstrap"],
+      "description": "•.Net 8 ve ASP.NET Core kullanılarak RESTful API'ler ve gerçek zamanlı iletişim altyapısı oluşturuldu.\n•SignalR ve RabbitMQ ile anlık mesajlaşma ve mesaj kuyruğu sistemi entegre edildi.\n•Bootstrap ve JavaScript kullanılarak responsive ve kullanıcı dostu bir arayüz tasarlandı.",
+      "github": "https://github.com/frknbkts/realtime-chat"
+    },
+    {
       "name": "E-Ticaret Uygulaması",
       "technologies": ["React", "Node.js", "Express", "Prisma", "PostgreSQL", "Docker"],
       "description": "• Kullanıcıların ürünleri görüntüleyebileceği, sepetlerine ekleyebileceği ve sipariş verebileceği bir e-ticaret uygulaması geliştirildi.\n• Node.js ve Express kullanılarak RESTful API'ler oluşturuldu.\n• Prisma ORM ve PostgreSQL veritabanı ile veri modelleri tanımlandı ve yönetildi.\n• Uygulama, Docker kullanılarak konteyner haline getirildi ve farklı ortamlar arasında tutarlı bir şekilde dağıtım sağlandı.",
